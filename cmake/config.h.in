@@ -1,0 +1,8 @@
+/* Have nl_langinfo (CODESET) */
+#cmakedefine HAVE_LANGINFO_CODESET 1
+
+/* Have locale_charset() */
+#cmakedefine HAVE_LOCALE_CHARSET 1
+
+/* Version number of package */
+#cmakedefine VERSION "@VERSION@"
